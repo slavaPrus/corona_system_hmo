@@ -1,0 +1,47 @@
+
+.div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap:20px;
+}
+input{
+  text-align: right;
+  width:150px;
+  padding-inline: 2px;
+}
+button{
+  margin: 20px;
+  width: 100px;
+  border-radius: 8px;
+}
+.input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.dialog{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.show-button{
+  margin: 0;
+  width:fit-content;
+  background-color: rgb(177, 240, 177);
+}
+.update-button{
+  margin: 0;
+  width:fit-content;
+  background-color: rgb(248, 212, 147);
+}
+.remove-button{
+  margin: 0;
+  width:fit-content;
+  background-color: red;
+}
+
