@@ -110,7 +110,7 @@ export const MemberActionDialog: React.FC<MemberActionProps> = ({
                   <dt>{fieldName}</dt>
                   {fieldName.toLowerCase().includes("date") ? (
                     <input
-                      type="date"
+                      type="datetime-local"
                       disabled={
                         actionType === ActionType.Show ||
                         fieldName === "firstName" ||

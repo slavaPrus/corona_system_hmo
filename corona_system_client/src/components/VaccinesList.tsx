@@ -37,7 +37,7 @@ export default function VaccinesList({
       <div className="div" style={{ flexDirection: "column" }}>
         <dt>vaccinationDate</dt>
         <input
-          type="date"
+          type="datetime-local"
           onChange={(e) => handleChange(e, "vaccinationDate")}
         />
         <dt>manufacturer</dt>

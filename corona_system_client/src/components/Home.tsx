@@ -31,7 +31,7 @@ export default function Home(props: HomeProps) {
     { x: string; y: number }[]
   >([]);
 
-  const fetchAllMembers = useCallback(async () => {
+  const fetchAllMembers =async () => {
     try {
       const res: Member[] = await getAllMembers();
       setMembers(res);
@@ -72,11 +72,11 @@ export default function Home(props: HomeProps) {
         (error as Error).message
       );
     }
-  }, []);
+  };
 
   useEffect(() => {
     fetchAllMembers();
-  }, [fetchAllMembers]);
+  }, []);
 
   const newMemberState: Member = {
     memberId: 0,
