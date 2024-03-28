@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Corona System HMO Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This folder contains the client-side implementation of the Corona System HMO project.
 
-## Available Scripts
+## Setup Instructions
 
-In the project directory, you can run:
+1. Navigate to the `corona_system_client` folder.
+2. Install the required dependencies using `npm install`.
+3. Run the client application using `npm start`.
 
-### `npm start`
+homepage:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/slavaPrus/corona_system_hmo/assets/142894115/c57a9319-5a57-4570-8504-85d8027ecae8)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The homepage contains summarized data regarding the COVID-19 patient status and a list of health fund members. Additionally, there is an option to add a new member. Each member has three buttons enabling deletion, display, or update. Clicking on any of these options will open a dialog
 
-### `npm run eject`
+dialog- member
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+show mode:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![image](https://github.com/slavaPrus/corona_system_hmo/assets/142894115/e4eafe53-a378-47b5-848a-b78c18e04d39)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+update mode:
+
+
+
+![image](https://github.com/slavaPrus/corona_system_hmo/assets/142894115/f5942767-e4a5-4f4f-af87-b4d19bbfdc17)
+
+
+
+
+The dialog has three modes: Display, Update, and Add New Member.
+Each of the modes contains a list of personal details and data regarding the member's COVID-19 status, including a list of vaccinations received."
+In edit mode or when adding a new member, an option to add a vaccination will be displayed. Clicking on 'Add New Vaccination' will open another dialog.
+Each member can receive up to 4 vaccinations. After that, adding a new vaccination will not be possible
+
+dialog- add vaccine
+
+
+
+![image](https://github.com/slavaPrus/corona_system_hmo/assets/142894115/57428c6f-0f69-4519-8830-ee4983966515)
+
+
+
+"The dialog includes an option to add a vaccination after providing the vaccination date and the vaccine manufacturer.
+
